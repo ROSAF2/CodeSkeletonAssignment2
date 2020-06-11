@@ -6,23 +6,20 @@ using System.Threading.Tasks;
 
 namespace CodeSkeletonHeavenlyVisions
 {
-    class Service
+    public class Service
     {
-        public bool foodintolernet;
-        public avalabileRooms List<int>;
-        mealPackages List<string>;
-        public string requiredEqiupment;
-        public string pickUpLocation;
-        public bool LugggaeAgreementAccepted;
+        //Fields
+        private bool foodintolernet;
+        private List<int> avalabileRooms;
+        private List<string> mealPackages;
+        private string requiredEqiupment;
+        private List<string> frameOption;
+        private string pickUpLocation;
+        private bool LugggaeAgreementAccepted;
+        //Constructor
+        public Service()
+        {
 
-
-
-
-
-        public void Service()
-        { }
-
-
-
+        }
     }
 }

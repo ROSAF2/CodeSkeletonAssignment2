@@ -8,13 +8,16 @@ namespace CodeSkeletonHeavenlyVisions
 {
     class PackageDeal
     {
-        public double dealPric;
-        public int dealDiscount;
-        public string expiryDate;
-        public List<Service>;
+        //Fields
+        private double dealPrice;
+        private int dealDiscount;
+        private string expiryDate;
+        private List<Service> includedServices;
 
+        //Constructor
+        public PackageDeal()
+        {
 
-
-
+        }
     }
 }
