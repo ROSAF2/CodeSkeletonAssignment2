@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{23698700-0AD8-4E20-905A-7127538027CE}</ProjectGuid>
+    <ProjectGuid>{8309D751-7681-40A1-BE7A-6777F8A28783}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CodeSkeletonHeavenlyVisions</RootNamespace>
-    <AssemblyName>CodeSkeletonHeavenlyVisions</AssemblyName>
+    <RootNamespace>CodeSkeleton</RootNamespace>
+    <AssemblyName>CodeSkeleton</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+    <Compile Include="AdminTeam.cs" />
+    <Compile Include="Booking.cs" />
+    <Compile Include="Customer.cs" />
     <Compile Include="EmailObject.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="PackageDeal.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Report.cs" />
-    <Compile Include="Website.cs" />
-=======
-    <Compile Include="Booking.cs" />
-    <Compile Include="PackageDeal.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service.cs" />
->>>>>>> bc234f4caa79f49a3da795c21e3b1fca5f71572f
+    <Compile Include="TourOperator.cs" />
+    <Compile Include="Website.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
